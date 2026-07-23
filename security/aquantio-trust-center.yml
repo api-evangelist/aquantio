@@ -1,0 +1,35 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://security.aquant.ai/
+url: https://security.aquant.ai/
+certifications:
+- SOC 1
+- SOC 2
+- ISO/IEC 27001
+- HIPAA
+- GDPR
+- CCPA
+- FedRAMP (Class C)
+- Privacy Shield
+documents:
+- SOC 2 attestation
+- ISO/IEC 27001 certification
+- CCPA compliance documentation
+- Network diagram
+- Pentest report
+- Security whitepaper
+- Privacy policy
+- Service-level agreement
+evidence:
+- source: https://security.aquant.ai/
+  keywords:
+  - soc 1
+  - soc 2
+  - iso/iec 27001
+  - hipaa
+  - fedramp
+  - trust center
+  - gdpr
+  - ccpa
+  - privacy shield

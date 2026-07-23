@@ -1,7 +1,18 @@
 aid: aquantio
 name: Aquant.io
-description: Aquant.io is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aquant is an agentic AI platform purpose-built for organizations that build,
+  sell, and service complex equipment. Founded in 2016 and headquartered in New
+  York, the company turns service content — equipment manuals, service histories,
+  parts and warranty data, and case notes — plus the expertise inside technicians'
+  heads into AI agents that help field technicians, call-center staff, and
+  self-service customers diagnose issues, surface verified troubleshooting steps,
+  predict equipment failure, and act faster across the entire service lifecycle.
+  Access is available by web, mobile, API, and voice. Aquant serves medical-device,
+  industrial, food-equipment, high-tech, printing, and energy manufacturers, with
+  customers including Siemens Healthineers, The Home Depot, Sysmex, and 3D Systems.
+  The company has raised roughly $113M and is backed by Insight Partners and
+  Lightspeed. It is tracked in the API Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/aquantio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.aquant.ai/favicon.ico
 tags:
 - Company
+- Artificial Intelligence
+- Agentic AI
+- Field Service
+- Service Intelligence
+- Equipment Maintenance
+- Enterprise
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.aquant.ai/
+- type: Documentation
+  url: https://docs.aquant.ai/
+- type: Blog
+  url: https://www.aquant.ai/resources/blog
+- type: Support
+  url: https://discover.aquant.ai/book-meeting
+- type: TermsOfService
+  url: https://www.aquant.ai/legal/terms/
+- type: PrivacyPolicy
+  url: https://www.aquant.ai/privacy-policy
+- type: TrustCenter
+  url: security/aquantio-trust-center.yml
+- type: Compliance
+  url: https://security.aquant.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aquant.io
+- type: DomainSecurity
+  url: security/aquantio-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
